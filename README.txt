@@ -55,25 +55,3 @@ ollama serve
 # 下載支援之模型（二選一或皆下載）
 ollama pull qwen3:1.7b
 ollama pull gemma3:1b
-
-```
-
-### 2. 編譯與執行
-
-在專案目錄下透過終端機執行：
-
-```bash
-# 編譯程式碼
-javac -encoding UTF-8 Mid_Project.java
-
-# 執行主程式
-java Mid_Project
-
-```
-
-### 3. 操作指令指南
-
-* 提問：直接輸入想確認的情境是非題（例：`死者是人類嗎？`）。
-* 取得提示：輸入 `提示`、`hint` 或 `我需要關鍵提示`。
-* 揭曉真相：輸入 `揭曉真相` 或 `我想看湯底` 直接結束並觀看完整解答。
-* 離開系統：輸入 `exit`。
